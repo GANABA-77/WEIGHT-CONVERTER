@@ -1,0 +1,75 @@
+*{
+  padding: 0px;
+  margin: 0px;  
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10px;
+    background: linear-gradient(135deg, #3fbd3a, #faf3f3);
+}
+
+.container {
+    max-width: 700px;
+    width: 50%;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.header {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.input-field input{
+    padding: 10px;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.input-field label {
+    font-size: larger;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+.submit {
+    text-align: center;
+    padding: 10px;
+}
+
+.submit input {
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    background: linear-gradient(135deg, #3fbd3a, #faf3f3);
+}
+
+.submit input:hover {
+    border: 1px solid red;
+}
+
+.error {
+    background: red;
+    color: white;
+    padding: 10px 0px 10px 5px;
+    margin: 10px 0px;
+    text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+}
